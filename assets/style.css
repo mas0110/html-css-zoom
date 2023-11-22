@@ -38,16 +38,19 @@ header{
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
+    justify-content: center;
 }
 .pic-container{
     position: relative;
     display: inline-block;
     flex-basis: calc(100%/6);
+    width: 200px;
+    height: 100px;
 }
 .name-tag{
     position: absolute;
-    bottom: 5px;
+    bottom:0;
     left: 0;
-    background-color: lightgray;
+    background-color:lightslategray;
     padding: 2px;
 }
