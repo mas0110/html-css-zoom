@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* contenuti del header */
 header{
     display: flex;
     justify-content: flex-end;
@@ -14,7 +15,6 @@ header{
     z-index: 2;
     width: 100%;
 }
-
 #speaker{
     background-color: #393939;
     padding: 8px;
@@ -22,6 +22,7 @@ header{
     color: white;
     border-style: none;
     margin-right: 8px;
+    text-transform: capitalize;
 }
 #maximize{
     background-color: #393939;
@@ -31,6 +32,8 @@ header{
     border-style: none;
     margin-right: 8px;
 }
+
+/* contenuti del main */
 .container{
     height: 100vh;
     background-color:black ;
@@ -53,4 +56,44 @@ header{
     left: 0;
     background-color:lightslategray;
     padding: 2px;
+    text-transform: capitalize;
 }
+
+/* contenuti del footer  */
+footer{
+    background-color: #1a1a1a;
+    color:white ;
+    display: flex;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    justify-content: space-between;
+
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+footer ul li button{
+    font-size:x-large;
+    background-color: #1a1a1a;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+
+    
+
+}
+#end-meet{
+    background-color: red;
+    padding: 5px;
+    border-style: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+
+
