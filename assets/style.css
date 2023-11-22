@@ -8,17 +8,37 @@ header{
     display: flex;
     justify-content: flex-end;
     background-color: black;
-    color: white;
     padding-block: 10px;
 }
 
 #speaker{
     background-color: #393939;
-    padding: 5px;
+    padding: 8px;
     border-radius: 10px;
+    color: white;
+    border-style: none;
+    margin-right: 8px;
 }
 #maximize{
     background-color: #393939;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 8px;
+    border-radius: 6px;
+    color: white;
+    border-style: none;
+    margin-right: 8px;
+}
+.container{
+    height: 100vh;
+    background-color:black ;
+    padding: 30px;
+}
+.pic-container{
+    position: relative;
+}
+.name-tag{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    background-color: lightgray;
+    padding: 2px;
 }
